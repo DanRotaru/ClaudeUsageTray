@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>ClaudeUsageTray</RootNamespace>
+    <AssemblyName>ClaudeUsageTray</AssemblyName>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <StartupObject></StartupObject>
+    <Authors>DanRotaru</Authors>
+    <Copyright>DanRotaru</Copyright>
+    <PackageProjectUrl>https://dan13.me/</PackageProjectUrl>
+    <PackageIcon>icon-128.png</PackageIcon>
+    <ApplicationIcon>icon\icon-128.ico</ApplicationIcon>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+
+	<PublishSingleFile>true</PublishSingleFile>
+	<SelfContained>false</SelfContained>
+	<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="icon\icon-128.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="icon\icon-128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
