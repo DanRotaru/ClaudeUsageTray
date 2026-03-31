@@ -12,6 +12,13 @@ A lightweight Windows system tray app that shows your [Claude](https://claude.ai
 - **Configurable refresh interval** — 1 min, 5 min, 30 min, or 1 hour
 - Reads credentials automatically from `~\.claude\.credentials.json` (set by Claude Code CLI)
 
+## Screenshots
+<img width="505" height="165" alt="claude-2" src="https://github.com/user-attachments/assets/718c8436-912a-4527-85f7-d29bfac62d62" />
+
+<img width="565" height="235" alt="claude-3" src="https://github.com/user-attachments/assets/b1476b5d-c252-4234-a995-e11cd985dfd7" />
+
+I suggest use 5 min refresh interval.
+
 ## Requirements
 
 - Windows 10/11
